@@ -8,7 +8,7 @@ A simple Python script that fetches the latest news headlines from news sources 
 * Easily extensible with new news sources.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/kayttajanimi/rss-news-parser.git`
+1. Clone the repository: `git clone https://github.com/niklastv/rssparser.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the application: `python rssfeedparser.py`
 

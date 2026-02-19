@@ -3,7 +3,7 @@ import feedparser
 # Määritellään uutislähteet ja niiden RSS-osoitteet
 UUTISLAHTEET = {
     "BBC News (World)": "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "Der Spiegel": "https://www.spiegel.de/index.rss"
+    "Der Spiegel": "https://www.spiegel.de/index.rss",
     "Helsingin Sanomat": "https://www.hs.fi/rss/tuoreimmat.xml",
     "Yle Uutiset": "https://yle.fi/rss/uutiset/paauutiset",
 }
