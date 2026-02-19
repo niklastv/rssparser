@@ -1,16 +1,15 @@
-import feedparser
 
 # Määritellään uutislähteet ja niiden RSS-osoitteet
 UUTISLAHTEET = {
     "BBC News (World)": "http://feeds.bbci.co.uk/news/world/rss.xml",
-    "Der Spiegel": "https://www.spiegel.de/index.rss"
-    "Helsingin Sanomat": "https://www.hs.fi/rss/tuoreimmat.xml",
     "Yle Uutiset": "https://yle.fi/rss/uutiset/paauutiset",
+    "Helsingin Sanomat": "https://www.hs.fi/rss/tuoreimmat.xml",
+    "Der Spiegel": "https://www.spiegel.de/index.rss"
 }
 
 def hae_ja_nayta_uutiset():
     print("=" * 40)
-    print(" PÄIVÄN TUOREIMMAT UUTISOTSIKOT ")
+    print(" PÄIVÄN TUOREIMMAT OTSIKOT ")
     print("=" * 40)
 
     for nimi, url in UUTISLAHTEET.items():
